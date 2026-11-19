@@ -1,0 +1,681 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Arshia Azmat — Product Designer creating thoughtful digital experiences, enterprise products and intuitive interfaces.">
+
+    <title>Arshia Azmat — Product Designer</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+
+    <header class="navbar">
+        <a href="#home" class="logo logo-photo-link" aria-label="Arshia Azmat, back to top">
+            <img src="profile.jpg" alt="Arshia Azmat" class="logo-photo" width="40" height="40"
+                 onerror="this.replaceWith(document.createTextNode('AA.'))">
+        </a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav class="nav-links" id="navLinks">
+            <a href="#home">Work</a>
+            <a href="#about">About</a>
+            <a href="#expertise">Expertise</a>
+            <a href="#contact" class="nav-contact">Let's talk ↗</a>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- HERO: pinned stage. Scrolling moves one project at a time. -->
+
+        <section class="hero-track" id="home">
+
+            <div class="stage" id="stage">
+
+                <div class="stage-left">
+
+                    <div class="stage-intro">
+                        <p class="availability">
+                            <span class="availability-dot"></span>
+                            Product designer · Based in Pakistan
+                        </p>
+
+                        <h1>
+                            Designing digital experiences that
+                            <span class="highlight-text">make sense.</span>
+                        </h1>
+
+                        <p class="hero-description">
+                            I turn complex problems into intuitive,
+                            meaningful digital experiences through
+                            thoughtful product design and a user-first approach.
+                        </p>
+                    </div>
+
+                    <p class="stage-counter" aria-live="polite">
+                        <span id="stageCurrent">01</span><span class="stage-total">/<span id="stageTotal">07</span></span>
+                    </p>
+
+                    <p class="stage-hint">Scroll to browse projects</p>
+
+                </div>
+
+                <div class="stage-cards" id="projectGrid" role="region" aria-label="Selected projects">
+
+
+
+                <!-- PROJECT 1 -->
+
+                <a href="versos-grc.html" class="project-card" data-category="saas">
+
+                    <div class="project-visual has-image visual-grc">
+                        <img class="card-image" src="assets/versos/card-cover.jpg" alt="" loading="eager">
+
+                        <div class="mock-sidebar">
+                            <div class="mock-logo"></div>
+                            <div class="mock-side-line active"></div>
+                            <div class="mock-side-line"></div>
+                            <div class="mock-side-line"></div>
+                            <div class="mock-side-line"></div>
+                        </div>
+
+                        <div class="mock-dashboard">
+                            <div class="mock-topbar"></div>
+
+                            <div class="mock-welcome">
+                                <div>
+                                    <span class="mock-heading"></span>
+                                    <span class="mock-subheading"></span>
+                                </div>
+                                <div class="mock-avatar"></div>
+                            </div>
+
+                            <div class="mock-stats">
+                                <div class="mock-stat"></div>
+                                <div class="mock-stat"></div>
+                                <div class="mock-stat"></div>
+                            </div>
+
+                            <div class="mock-chart">
+                                <div class="chart-bars">
+                                    <i></i><i></i><i></i><i></i>
+                                    <i></i><i></i><i></i><i></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <span class="visual-label">01 / ENTERPRISE</span>
+
+                    </div>
+
+                    <div class="project-info">
+                        <div>
+                            <p class="project-type">ENTERPRISE · GRC · SAAS</p>
+                            <h3>Amantra / Versos GRC</h3>
+                            <p class="project-description">
+                                Designing complex governance, risk and
+                                compliance experiences for enterprise teams.
+                            </p>
+                        </div>
+
+                        <span class="project-arrow">↗</span>
+                    </div>
+
+            </a>
+
+
+                <!-- PROJECT 2 -->
+
+                <article class="project-card" data-category="saas">
+
+                    <div class="project-visual visual-ppe">
+
+                        <div class="ppe-window">
+
+                            <div class="ppe-header">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+
+                            <div class="ppe-content">
+                                <div class="ppe-title"></div>
+
+                                <div class="ppe-metrics">
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+
+                                <div class="ppe-main">
+                                    <div class="ppe-feed">
+                                        <div class="feed-person"></div>
+                                        <div class="feed-status"></div>
+                                    </div>
+
+                                    <div class="ppe-details">
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <span class="visual-label">02 / SAFETY</span>
+
+                    </div>
+
+                    <div class="project-info">
+                        <div>
+                            <p class="project-type">SAAS · SAFETY · MONITORING</p>
+                            <h3>PPE Compliance</h3>
+                            <p class="project-description">
+                                Exploring a unified experience for safety
+                                monitoring and violation management.
+                            </p>
+                        </div>
+
+                        <span class="project-arrow">↗</span>
+                    </div>
+
+                </article>
+
+
+                <!-- PROJECT 3 -->
+
+                <article class="project-card" data-category="web">
+
+                    <div class="project-visual visual-commerce">
+
+                        <div class="commerce-window">
+
+                            <div class="commerce-nav">
+                                <span>MON ADAMS</span>
+                                <span>SHOP　 ABOUT　 BAG</span>
+                            </div>
+
+                            <div class="commerce-hero">
+                                <div class="commerce-copy">
+                                    <span>DISCOVER MORE</span>
+                                    <strong>Everyday,<br>reimagined.</strong>
+                                    <i>EXPLORE COLLECTION</i>
+                                </div>
+
+                                <div class="commerce-product">
+                                    <div class="product-shape"></div>
+                                </div>
+                            </div>
+
+                            <div class="commerce-footer">
+                                <span></span><span></span><span></span>
+                            </div>
+
+                        </div>
+
+                        <span class="visual-label">03 / E-COMMERCE</span>
+
+                    </div>
+
+                    <div class="project-info">
+                        <div>
+                            <p class="project-type">E-COMMERCE · WEB DESIGN</p>
+                            <h3>Mon Adams</h3>
+                            <p class="project-description">
+                                A multi-niche e-commerce experience
+                                designed across different touchpoints.
+                            </p>
+                        </div>
+
+                        <span class="project-arrow">↗</span>
+                    </div>
+
+                </article>
+
+
+                <!-- PROJECT 4 -->
+
+                <article class="project-card" data-category="mobile">
+
+                    <div class="project-visual visual-rider">
+
+                        <div class="phone-mockup">
+
+                            <div class="phone-notch"></div>
+
+                            <div class="phone-content">
+                                <span class="phone-greeting">Hello, Rider!</span>
+
+                                <div class="phone-map">
+                                    <span>↗</span>
+                                    <span>●</span>
+                                </div>
+
+                                <div class="phone-order">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+
+                                <div class="phone-button"></div>
+                            </div>
+
+                        </div>
+
+                        <span class="visual-label">04 / MOBILE APP</span>
+
+                    </div>
+
+                    <div class="project-info">
+                        <div>
+                            <p class="project-type">MOBILE · USER EXPERIENCE</p>
+                            <h3>Rider App</h3>
+                            <p class="project-description">
+                                A mobile experience focused on delivery
+                                workflows and rider interactions.
+                            </p>
+                        </div>
+
+                        <span class="project-arrow">↗</span>
+                    </div>
+
+                </article>
+
+
+                <!-- PROJECT 5 -->
+
+                <article class="project-card" data-category="concept">
+
+                    <div class="project-visual visual-traffic">
+
+                        <div class="traffic-board">
+                            <div class="traffic-top">
+                                <span>SMART CITY</span>
+                                <span>LIVE SYSTEM</span>
+                            </div>
+
+                            <div class="traffic-road">
+                                <div class="traffic-light">
+                                    <i></i><i></i><i></i>
+                                </div>
+
+                                <div class="road-line"></div>
+
+                                <div class="traffic-light">
+                                    <i></i><i></i><i></i>
+                                </div>
+                            </div>
+
+                            <div class="traffic-stats">
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                        </div>
+
+                        <span class="visual-label">05 / SMART SYSTEMS</span>
+
+                    </div>
+
+                    <div class="project-info">
+                        <div>
+                            <p class="project-type">IOT · SMART CITY · CONCEPT</p>
+                            <h3>Smart Traffic & Street Lights</h3>
+                            <p class="project-description">
+                                Exploring connected urban systems
+                                and intelligent monitoring experiences.
+                            </p>
+                        </div>
+
+                        <span class="project-arrow">↗</span>
+                    </div>
+
+                </article>
+
+
+                <!-- PROJECT 6 -->
+
+                <article class="project-card" data-category="concept">
+
+                    <div class="project-visual visual-ai">
+
+                        <div class="ai-interface">
+
+                            <div class="ai-header">
+                                <span>IMAGE MATCHING</span>
+                                <span>✳</span>
+                            </div>
+
+                            <div class="ai-images">
+                                <div class="ai-image-box">
+                                    <span>↗</span>
+                                </div>
+
+                                <div class="ai-match">≈</div>
+
+                                <div class="ai-image-box second">
+                                    <span>✦</span>
+                                </div>
+                            </div>
+
+                            <div class="ai-progress">
+                                <span></span>
+                            </div>
+
+                            <div class="ai-caption"></div>
+
+                        </div>
+
+                        <span class="visual-label">06 / AI & INNOVATION</span>
+
+                    </div>
+
+                    <div class="project-info">
+                        <div>
+                            <p class="project-type">AI · VISUAL SEARCH · CONCEPT</p>
+                            <h3>Image Matching</h3>
+                            <p class="project-description">
+                                Exploring visual matching workflows
+                                and intuitive image discovery experiences.
+                            </p>
+                        </div>
+
+                        <span class="project-arrow">↗</span>
+                    </div>
+
+                </article>
+
+
+                <!-- PROJECT 7 -->
+
+                <article class="project-card" data-category="web">
+
+                    <div class="project-visual visual-lore">
+
+                        <div class="lore-window">
+                            <span class="lore-logo">UTTER LORE</span>
+
+                            <div class="lore-title">
+                                <span>MAKE ROOM FOR</span>
+                                <strong>New<br>perspectives.</strong>
+                            </div>
+
+                            <div class="lore-shapes">
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                            </div>
+                        </div>
+
+                        <span class="visual-label">07 / DIGITAL EXPERIENCE</span>
+
+                    </div>
+
+                    <div class="project-info">
+                        <div>
+                            <p class="project-type">WEB DESIGN · RESPONSIVE</p>
+                            <h3>Utter Lore</h3>
+                            <p class="project-description">
+                                Digital design work spanning responsive
+                                layouts, backgrounds and interface flows.
+                            </p>
+                        </div>
+
+                        <span class="project-arrow">↗</span>
+                    </div>
+
+                </article>
+
+
+                </div>
+
+                <div class="stage-list" id="stageList"></div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ABOUT -->
+
+        <section class="about-section section" id="about">
+
+            <div class="about-intro reveal">
+
+                <p class="eyebrow">A LITTLE ABOUT ME</p>
+
+                <h2>
+                    Good design is not just
+                    how something looks.
+                    It's <span>how it works.</span>
+                </h2>
+
+            </div>
+
+            <div class="about-content reveal">
+
+                <div class="about-text">
+
+                    <p>
+                        I'm Arshia, a Product Designer with a background
+                        in Computer Science and a passion for creating
+                        useful, intuitive digital experiences.
+                    </p>
+
+                    <p>
+                        My work spans enterprise platforms, SaaS
+                        products, mobile experiences and e-commerce.
+                        I enjoy understanding complex problems,
+                        organising information and turning ideas
+                        into thoughtful interfaces.
+                    </p>
+
+                    <p>
+                        I believe good product design brings together
+                        user needs, business goals and functional
+                        simplicity.
+                    </p>
+
+                    <a href="https://www.behance.net/arshiaazmat"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="text-link">
+                        Explore my Behance ↗
+                    </a>
+
+                </div>
+
+                <div class="about-details">
+
+                    <div class="detail-item">
+                        <span>01</span>
+                        <div>
+                            <strong>My approach</strong>
+                            <p>Research, structure, explore, refine.</p>
+                        </div>
+                    </div>
+
+                    <div class="detail-item">
+                        <span>02</span>
+                        <div>
+                            <strong>My background</strong>
+                            <p>BS Computer Science · COMSATS University</p>
+                        </div>
+                    </div>
+
+                    <div class="detail-item">
+                        <span>03</span>
+                        <div>
+                            <strong>My focus</strong>
+                            <p>Product thinking and meaningful experiences.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- EXPERTISE -->
+
+        <section class="expertise-section section" id="expertise">
+
+            <div class="section-heading reveal">
+                <div>
+                    <p class="eyebrow">WHAT I BRING TO THE TABLE</p>
+                    <h2>My expertise<span>.</span></h2>
+                </div>
+            </div>
+
+
+            <div class="expertise-grid">
+
+                <div class="expertise-card reveal">
+                    <span class="expertise-number">01</span>
+                    <h3>Product Design</h3>
+                    <p>
+                        Translating product goals and user needs
+                        into structured, usable experiences.
+                    </p>
+                    <div class="skill-tags">
+                        <span>Product Thinking</span>
+                        <span>Problem Solving</span>
+                        <span>User Flows</span>
+                    </div>
+                </div>
+
+                <div class="expertise-card reveal">
+                    <span class="expertise-number">02</span>
+                    <h3>UX Design</h3>
+                    <p>
+                        Creating clear journeys and organising
+                        information around user behaviour.
+                    </p>
+                    <div class="skill-tags">
+                        <span>Wireframing</span>
+                        <span>UX Research</span>
+                        <span>Information Architecture</span>
+                    </div>
+                </div>
+
+                <div class="expertise-card reveal">
+                    <span class="expertise-number">03</span>
+                    <h3>UI & Interaction</h3>
+                    <p>
+                        Designing consistent interfaces and
+                        meaningful interactions across devices.
+                    </p>
+                    <div class="skill-tags">
+                        <span>Visual Design</span>
+                        <span>Prototyping</span>
+                        <span>Design Systems</span>
+                    </div>
+                </div>
+
+                <div class="expertise-card reveal">
+                    <span class="expertise-number">04</span>
+                    <h3>Tools & Collaboration</h3>
+                    <p>
+                        Working with design tools and cross-functional
+                        teams to move ideas towards implementation.
+                    </p>
+                    <div class="skill-tags">
+                        <span>Figma</span>
+                        <span>FigJam</span>
+                        <span>Framer</span>
+                        <span>Miro</span>
+                        <span>ClickUp</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT -->
+
+        <section class="contact-section section" id="contact">
+
+            <div class="contact-content reveal">
+
+                <p class="eyebrow">HAVE A PROJECT IN MIND?</p>
+
+                <h2>
+                    Let's make
+                    something
+                    <span>meaningful.</span>
+                </h2>
+
+                <p>
+                    I'm always interested in thoughtful products,
+                    creative collaborations and new opportunities.
+                </p>
+
+                <a href="https://www.behance.net/arshiaazmat"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="contact-button">
+                    Get in touch ↗
+                </a>
+
+            </div>
+
+            <div class="contact-decoration" aria-hidden="true">
+                AA.
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+
+        <a href="#home" class="logo">AA<span>.</span></a>
+
+        <p>Designed with intention. Built with curiosity.</p>
+
+        <div class="footer-links">
+            <a href="https://www.behance.net/arshiaazmat"
+               target="_blank"
+               rel="noopener noreferrer">
+                Behance ↗
+            </a>
+
+            <a href="#home">Back to top ↑</a>
+        </div>
+
+        <p class="copyright">
+            © <span id="currentYear"></span> Arshia Azmat
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
